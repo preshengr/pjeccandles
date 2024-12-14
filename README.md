@@ -46,8 +46,8 @@ This project is licensed under the [Choose a License - e.g., MIT License].
 
 **Contact:**
 
-[Precious Amaechi]
-[preshengr@gmail.com]
-[www.github.io/poa-profile]
+(Precious Amaechi)
+(EmailMe) [preshengr@gmail.com]
+(My WebLink) [www.github.io/poa-profile]
 
 Thank you
