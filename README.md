@@ -30,6 +30,8 @@ This project is a simple landing page for a fictional candle company. It showcas
 **To improve this project:**
 * **I enhanced accessibility:** Improve accessibility for users with disabilities by adding ARIA attributes and following WCAG guidelines.
 
+* **I used external images:** Used external links importing images. This is also a system i tried out to know effectively how fast my page would load.
+
 **Contributions:**
 
 I want to appreciate Mark Chika for his input in helping with debugging. I also appreciate my mum for her support in waking me up sometime to code.
