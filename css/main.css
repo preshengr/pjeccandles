@@ -1110,3 +1110,23 @@ footer .bottom_content section{
     display:inline-block;
     }
 }
+
+/***************************
+        ADDITIONAL
+***************************/
+#roll_back{
+    position:fixed;
+    bottom:2rem;
+    right:2rem;
+    background-color:var(--palepink);
+    border-radius:5px;
+    border:2px solid var(--pink);
+    padding:5px 10px;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    z-index:999999;
+    box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5);
+    color:var(--pink);
+    font-weight:900;
+}
