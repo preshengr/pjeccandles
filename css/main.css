@@ -3,13 +3,13 @@
 ****************************/
 *,html{
     scroll-behavior: smooth;
-    }
-    *, *:after, *:before {
+}
+*, *:after, *:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    }
-    :root{
+}
+:root{
     scrollbar-color: rgb(210,210,210) rgb(46,54,69) !important;
     scrollbar-width: thin !important;
     --white:#fff;
@@ -25,16 +25,79 @@
     --default:'Josefin Sans', sans-serif;
     --title:'Cormorant Garamond', serif;
     --cursive:'Dancing Script', cursive;
-    }
-    ::-webkit-scrollbar {
+}
+::-webkit-scrollbar {
     height: 12px;
     width: 8px;
     background: var(--dark);
-    }
-    ::-webkit-scrollbar-thumb {
+}
+::-webkit-scrollbar-thumb {
     background: gray;
     -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-    }
-    ::-webkit-scrollbar-corner {
+}
+::-webkit-scrollbar-corner {
     background: var(--paleblue);
-    }    
+}
+
+/***************************
+         DEFAULT
+***************************/
+body{
+    margin:0;
+    overflow-x:hidden !important;
+    font-family:var(--default);
+    }
+    
+a{
+    text-decoration:none;
+    transition:0.5s;
+    outline:none !important;
+}
+    
+em{
+    color:var(--pink);
+    font-family:var(--cursive);
+}
+    
+p{
+    line-height:1.4em;
+}
+    
+.title{
+    font-family:var(--title);
+    font-size:3em;
+    color:var(--black);
+    font-weight:200;
+}
+    
+.btn1{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--blue);
+    background-color: var(--white);
+    box-shadow: 4px 4px 0px 0px var(--blue);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--blue);
+    border-radius: 0px 0px 0px 0px;
+    padding: 25px 50px;
+}
+
+.btn1:hover{
+    background-color:var(--blue);
+    color:var(--white);
+    box-shadow: 6px 6px 0px 0px #BAD7DF;
+}
+        
+@media (max-width:1000px){
+    .title{
+        font-size:1.5em;
+}
+.btn1{
+    padding:15px 25px;
+    display:block;
+    width:180px;
+    text-align:center;
+}
+}
