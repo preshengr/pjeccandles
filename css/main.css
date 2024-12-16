@@ -101,3 +101,131 @@ p{
     text-align:center;
 }
 }
+
+/***************************
+         ANIMATIONS
+***************************/
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+    }
+    
+    @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+    }
+    
+    @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+    }
+    
+    
+    @-webkit-keyframes scroll {
+    0% {
+    transform: translateX(0);
+    }
+    100% {
+    transform: translateX(calc(-250px * 7));
+    }
+    }
+    
+    @keyframes scroll {
+    0% {
+    transform: translateX(0);
+    }
+    100% {
+    transform: translateX(calc(-250px * 7));
+    }
+    }
+    .slider {
+    background: white;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+    }
+    .slider::before, .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+    }
+    .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+    }
+    .slider::before {
+    left: 0;
+    top: 0;
+    }
+    .slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+    }
+    .slider .slide {
+    height: 100px;
+    width: 250px;
+    }
+    
+/***************************
+          HEADER
+***************************/
+header{
+    width:100%;
+    background-color:var(--palepink);
+    display:flex;
+}
+    
+header a{
+    color:var(--lite);
+}
+    
+header a:hover{
+    color:var(--black);
+}
+    
+header section{
+    width:100%;
+    padding:0.5rem 2rem;
+    font-size:14px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+    
+header section span{
+    padding:0 1rem;
+    text-align:center;
+    white-space:nowrap;
+}
+    
+    
+header span .fa{
+    margin:0 5px;
+}
+    
+header .btn1{
+    padding:5px 10px !important;
+}
+    
+@media (max-width:920px){
+    header section:nth-child(1){
+    display:none !important;
+}
+header section{
+    padding:0.5rem 0rem;
+}
+} 
+    
+@media (max-width:340px){
+    header section span{
+    padding:0 2px;
+}
+}
