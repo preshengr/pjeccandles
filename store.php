@@ -11,6 +11,7 @@ include 'header.php';
     var noBackPlease = function () {
         global.location.href += "#";
 		// making sure we have the fruit available for juice....
+		
 		// 50 milliseconds for just once do not cost much (^__^)
         global.setTimeout(function () {
             global.location.href += "!";
@@ -30,6 +31,7 @@ include 'header.php';
             if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
                 e.preventDefault();
             }
+			
             // stopping event bubbling up the DOM tree..
             e.stopPropagation();
         };		
