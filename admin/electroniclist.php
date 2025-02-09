@@ -5,7 +5,8 @@ error_reporting(0);
 if(isset($_GET['action']) && $_GET['action']!="" && $_GET['action']=='delete')
 {
 $product_id=$_GET['product_id'];
-///////picture delete/////////
+
+//Delete Pictur//
 $result=mysqli_query($con,"select product_image from products where product_id='$product_id'")
 or die("query is incorrect...");
 
@@ -22,7 +23,7 @@ else
 mysqli_query($con,"delete from products where product_id='$product_id'")or die("query is incorrect...");
 }
 
-///pagination
+//pagination//
 
 $page=$_GET['page'];
 
