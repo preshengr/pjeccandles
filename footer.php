@@ -10,7 +10,8 @@
 								<h3 class="footer-title">About Us</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 									sed do eiusmod tempor incididunt ut labore et dolore magna 
-									aliqua. Ut enim ad minim veniam, </p>
+									aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit qui asperiores tenetur at dolores magni rem est dolor possimus, maiores enim minus vero, eius fugit tempora! Non fuga mollitia suscipit?
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro perspiciatis voluptatibus ea numquam, aliquam consectetur incidunt corrupti cum ipsum optio, laudantium atque nihil distinctio eligendi excepturi eius obcaecati aperiam architecto.</p>
 								<ul class="footer-links">
 									<li><a href="#" style="color:blue;"><i class="fa fa-map-marker"></i>Nyarugenge, Kigali</a></li>
 									<li><a href="#" style="color:blue;"><i class="fa fa-phone"></i>+250xxxxxxxxx</a></li>
