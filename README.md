@@ -1,129 +1,130 @@
-# PJECCANDLE: School Management System
+# Online Book Store - ECommerce Website in PHP
 
-Managing a school can be a complex task with numerous operations involved. However, with the **School Management System** built using PHP, school administrators can now handle their day-to-day activities much more efficiently. This project offers a powerful solution for managing students, teachers, classes, and other school-related operations. 
-
-In this repository, you'll find the complete source code for the School Management System. Below, we’ll discuss the features of this project and guide you on how to download and run it.
-
----
-
-## **Project Overview**
-
-- **Project Name**: School Management System  
-- **Technology Used**: PHP, MySQL, HTML, CSS  
-- **Database**: MySQL  
-- **Category**: Web Application  
-- **Purpose**: To manage school operations such as student records, teacher management, attendance tracking, and class management.  
-
-This PHP-based project provides an easy-to-use interface that simplifies school administration tasks. Whether you’re looking to automate student registration or keep track of teacher assignments, this system can help streamline the process.
+## Introduction
+Welcome to the **Online Book Store**, a comprehensive PHP-based eCommerce platform designed for bookstores to provide their clients with an online space to explore and purchase a wide variety of books. This project includes a robust **Admin Panel** that allows store management to efficiently manage products, orders, and other system data. Whether you're a bookstore owner or a developer, this system offers a seamless solution for transitioning your bookstore operations online.
 
 ---
 
-## **Key Features**
+## About the Project
+The **Online Book Store** is a dynamic web application developed using **PHP/MySQLi** for the backend, **MySQL** for the database, and **HTML, CSS, JavaScript (Ajax and jQuery), Bootstrap, and Admin LTE** for the frontend. The system is designed to be user-friendly and scalable, catering to both administrators and customers.
 
-The School Management System is designed to be user-friendly and covers the following essential features:
+### **Admin Panel Features**
+The Admin Panel is a secure area where administrators can manage the entire system. Key features include:
+- **Secure Login**: Admin users must authenticate with their credentials to access the panel.
+- **Dashboard**: A centralized view of system activities and metrics.
+- **Category and Sub-Category Management**: Add, edit, or remove categories and subcategories for books.
+- **Book List Management**: Manage the list of books available in the store.
+- **Inventory Management**: Track and update book inventory.
+- **Order Management**: View and update the status of customer orders.
+- **Sales Reports**: Generate and view printable sales reports.
+- **System Information Management**: Customize system details such as the store name and logo.
+- **Account Management**: Update admin account details.
 
-- **Student Management**: Easily add, edit, or remove student records.  
-- **Teacher Management**: Keep a record of teacher details and assign them to appropriate classes.  
-- **Class and Subject Management**: Set up classes, subjects, and sections for students and teachers.  
-- **Attendance Tracking**: Record daily attendance for students and view attendance history.  
-- **Performance Monitoring**: Track and assess student performance and progress.  
-- **Secure Admin Login**: The system comes with a secure login for administrators to ensure the safety of sensitive data.  
-
-These features make it an ideal tool for schools that want to go digital and reduce manual paperwork.
-
----
-
-## **How to Run the Project**
-
-Setting up the School Management System on your local server is easy. Follow these steps:
-
-1. **Download the Project Files**:  
-   Clone this repository or download the ZIP file and extract it.
-
-   ```bash
-   git clone https://github.com/your-username/PJECCANDLE.git
-   ```
-
-2. **Set Up Local Server**:  
-   Place the extracted files in the root folder of your local server (e.g., `htdocs` for XAMPP or `www` for WAMP).
-
-3. **Import the Database**:  
-   - Open PHPMyAdmin or a similar tool.  
-   - Create a new database (e.g., `school_management`).  
-   - Import the provided SQL file (`database/school_management.sql`) into the database.
-
-4. **Configure Database Connection**:  
-   Update the database connection settings in `config.php` with your database credentials.
-
-   ```php
-   $host = "localhost";
-   $username = "root";
-   $password = "";
-   $database = "school_management";
-   ```
-
-5. **Run the Application**:  
-   - Start your local server (e.g., Apache and MySQL in XAMPP).  
-   - Open your web browser and navigate to:  
-     ```
-     http://localhost/PJECCANDLE
-     ```
-
-6. **Login**:  
-   Use the default admin credentials to log in:  
-   - **Username**: `admin`  
-   - **Password**: `admin123`
+### **Client/Customer Features**
+The client-side of the system allows customers to explore and purchase books with ease. Key features include:
+- **Secure Login and Registration**: Customers can create accounts and log in securely.
+- **Book Exploration**: Browse books organized by categories and subcategories.
+- **Search Functionality**: Search for specific books using keywords.
+- **Book Details**: View detailed information about each book.
+- **Shopping Cart**: Add books to the cart, manage quantities, and proceed to checkout.
+- **Checkout and Order Placement**: Choose between pickup or delivery and select payment methods (Cash on Delivery or PayPal).
+- **Order History**: View past orders and their statuses.
 
 ---
 
-## **Project Structure**
+## Features Overview
 
-```
-PJECCANDLE/
-├── assets/              # CSS, JS, and images
-├── config/              # Database configuration files
-├── database/            # SQL file for database setup
-├── includes/            # PHP includes (header, footer, etc.)
-├── modules/             # Core modules (students, teachers, attendance, etc.)
-├── index.php            # Homepage
-├── login.php            # Admin login page
-└── README.md            # Project documentation
-```
+### **Admin Side**
+- Secure Login
+- Dashboard Page
+- Manage Category List
+- Manage Sub-Category List
+- Manage Book List
+- Manage Inventory
+- Manage Order List
+- View Sales Report
+- Manage System Information
+- Manage Account
 
----
-
-## **Customization**
-
-The source code is well-documented, making it easy for developers and students to modify or expand the project based on specific needs. Here are some ideas for customization:
-
-- Add new modules (e.g., fee management, library management).  
-- Integrate a responsive design using frameworks like Bootstrap.  
-- Enhance security by implementing password hashing and CAPTCHA.  
-- Add role-based access control (e.g., admin, teacher, student).  
-
----
-
-## **Contributing**
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.  
-2. Create a new branch for your feature or bug fix.  
-3. Commit your changes.  
-4. Submit a pull request.  
+### **Client/Customer Side**
+- Secure Login and Registration
+- Explore Books
+- Search Books
+- View Book Details
+- Add Books to Cart
+- View and Manage Cart
+- Checkout and Place Orders
+- Pay Online (PayPal Integration)
 
 ---
 
-## **License**
+## How to Run the Project
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+### **Requirements**
+1. **Local Web Server**: Download and install a local web server like [XAMPP](https://www.apachefriends.org/index.html) or [WAMP](https://www.wampserver.com/en/).
+2. **Source Code**: Download the provided source code zip file from this repository.
+
+### **Installation/Setup**
+1. **Start Local Server**:
+   - Open your XAMPP/WAMP Control Panel.
+   - Start the **Apache** and **MySQL** services.
+
+2. **Extract and Move Files**:
+   - Extract the downloaded source code zip file.
+   - Copy the extracted folder and paste it into:
+     - **XAMPP**: `htdocs` directory.
+     - **WAMP**: `www` directory.
+
+3. **Set Up Database**:
+   - Open PHPMyAdmin in your browser (e.g., `http://localhost/phpmyadmin`).
+   - Create a new database named `book_shop_db`.
+   - Import the provided SQL file (`book_shop_db.sql`) located in the `database` folder.
+
+4. **Access the Application**:
+   - Open your browser and navigate to:
+     - **Client Side**: `http://localhost/book_shop`
+     - **Admin Side**: `http://localhost/book_shop/admin`
 
 ---
 
-## **Support**
+## Access Information
 
-If you encounter any issues or have questions, feel free to open an issue in this repository or contact the maintainers.
+### **Admin Access**
+- **Username**: `admin`
+- **Password**: `admin123`
+
+### **Sample Customer Access**
+- **Email**: `jsmith@sample.com`
+- **Password**: `jsmith123`
 
 ---
 
-Thank you for using **PJECCANDLE: School Management System**! We hope this project simplifies school administration and helps you achieve your goals. 🚀
+## Customization and Extensions
+The source code is well-documented and modular, making it easy to customize or extend based on your specific needs. Here are some ideas for enhancements:
+- Add more payment gateways (e.g., Stripe, Paytm).
+- Implement user reviews and ratings for books.
+- Integrate a recommendation engine for personalized book suggestions.
+- Add a blog or news section for the bookstore.
+
+---
+
+## Contributing
+Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes.
+4. Submit a pull request.
+
+---
+
+## License
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute the code as per the license terms. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## Support
+If you encounter any issues or have questions, please open an issue in this repository or contact the maintainers. We’re here to help!
+
+---
+
+Thank you for choosing the **Online Book Store** project. We hope it serves as a valuable tool for your bookstore operations and inspires further innovation. Happy coding! 🚀
